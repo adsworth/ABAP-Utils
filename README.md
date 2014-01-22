@@ -44,5 +44,5 @@ Using this class you don't need to create loads of local variables when using th
       lt_install[] = gr_structure_read->mt_eanl[].
     catch lcx_error into lr_error.
       mac_print_cancel lr_error->msgty lr_error->msgno lr_error->msgid
-                       lr_error->msgv1 lr_error->msgv2 lr_error->msgv3 lr_error->msgv4 .
-  endtry.
+                       lr_error->msgv1 lr_error->msgv2 lr_error->msgv3 lr_error->msgv4.
+    endtry.
